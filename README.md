@@ -37,12 +37,12 @@ The URLs were analyzed using:
 * No malicious classification was detected for the Bit.ly URL.
 * The shortened URL acted as a redirect link, which is commonly used by threat actors to hide the final destination.
 
-![URLScan]()
+![URLScan](screensshots/03-urlscan.png)
 
 **VirusTotal Findings**
 
-![VirusTotal-1]()
-![VirusTotal-2]()
+![VirusTotal-1](screensshots/04url1-virustotal-1.png)
+![VirusTotal-2](screensshots/05url1-virustotal-2.png)
 
 * The Bit.ly redirect URL was flagged by multiple security vendors as:
 
@@ -52,13 +52,13 @@ The URLs were analyzed using:
 
 * The redirected final URL was also flagged by security vendors as phishing.
 
-![VirusTota1-3]()
+![VirusTota1-3](screensshots/06url1-virustotal-3.png)
 
 * The second URL shared the same domain as the sender’s email address (`eportfolioapp.nl`).
 
 * No vendors flagged this domain as malicious, but its use in the email remains suspicious.
 
-![VirusTotal-4]()
+![VirusTotal-4](screensshots/07url2-virustotal-1.png)
 
 #### c) Attachment Analysis
 
@@ -80,7 +80,7 @@ Further analysis was performed on the email header to identify additional phishi
 
 The email was sent using SendGrid mail infrastructure.
 
-![EmailHeader-1]()
+![EmailHeader-1](screensshots/08-email-header-1.png)
 
 #### b) IP Reputation Check
 
@@ -89,14 +89,14 @@ The email was sent using SendGrid mail infrastructure.
 * The IP address belongs to SendGrid.
 * No major security vendor flagged the IP as malicious.
 
-![VirusTotal-IP]()
+![VirusTotal-IP](screensshots/10-virustotal-ip.png)
 
 **AbuseIPDB Results**
 
 * The IP address was previously reported for spam and phishing-related activity.
 * This indicates the IP may have been used in previous phishing campaigns.
 
-![AbuseIPDB]()
+![AbuseIPDB](screensshots/11-abuseipdb-ip.png)
 
 #### c) Email Authentication Results
 
@@ -125,7 +125,7 @@ The email showed inconsistencies between:
 
 These mismatches are common indicators of phishing emails.
 
-![EmailHeader-2]()
+![EmailHeader-2](screensshots/09-email-header-2.png)
 
 ### 4. Indicators of Compromise (IoCs)
 
