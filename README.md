@@ -41,8 +41,8 @@ The URLs were analyzed using:
 
 **VirusTotal Findings**
 
-![VirusTotal-1](screensshots/04url1-virustotal-1.png)
-![VirusTotal-2](screensshots/05url1-virustotal-2.png)
+![VirusTotal-1](screensshots/04-url1-virustotal-1.png)
+![VirusTotal-2](screensshots/05-url1-virustotal-2.png)
 
 * The Bit.ly redirect URL was flagged by multiple security vendors as:
 
@@ -52,13 +52,13 @@ The URLs were analyzed using:
 
 * The redirected final URL was also flagged by security vendors as phishing.
 
-![VirusTota1-3](screensshots/06url1-virustotal-3.png)
+![VirusTota1-3](screensshots/06-url1-virustotal-3.png)
 
 * The second URL shared the same domain as the sender’s email address (`eportfolioapp.nl`).
 
 * No vendors flagged this domain as malicious, but its use in the email remains suspicious.
 
-![VirusTotal-4](screensshots/07url2-virustotal-1.png)
+![VirusTotal-4](screensshots/07-url2-virustotal-1.png)
 
 #### c) Attachment Analysis
 
