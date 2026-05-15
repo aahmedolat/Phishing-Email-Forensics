@@ -8,7 +8,7 @@ One shortened URL redirected users to another external website that was flagged 
 
 Based on the findings, the email is assessed as a phishing attempt intended to trick users into clicking malicious links.
 
-![Email Body]()
+![Email Body](screenshots/01-email-body.png)
 
 ### 2. Email Body URL and Attachment Analysis
 
@@ -28,7 +28,7 @@ The URLs were analyzed using:
 * URLScan.io
 * VirusTotal
 
-![Email Body Link]()
+![Email Body URL](screenshots/02-email-body-url.png)
 
 #### b) Threat Intelligence Results
 
