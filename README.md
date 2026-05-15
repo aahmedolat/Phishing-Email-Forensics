@@ -1,4 +1,4 @@
-## Phishing Email Forensic Simulation Report
+<h1 align="center">Phishing Email Forensic Simulation Report</h1>
 
 ### 1. Executive Summary
 
